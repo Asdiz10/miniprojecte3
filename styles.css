@@ -1,0 +1,22 @@
+body{
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    right: 50px;
+}
