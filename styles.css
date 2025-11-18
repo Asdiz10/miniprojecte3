@@ -1,18 +1,15 @@
 body{
     margin: 0px;
-    
 }
 
 header{
-   
-
-
 
 
 }
 
 
 main{
+    display: flex;
     background-image: url(images/fotomain.jpg);
     height: 700px;
     width: 100%;
@@ -22,6 +19,7 @@ main{
 
 
 footer{
+    background-color: rgb(37, 37, 82);
    
 
 }
@@ -29,13 +27,9 @@ footer{
 
 nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #ffffff;
-    
-
-
-   
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 
@@ -50,14 +44,43 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: green;
+    color: rgb(0, 25, 71);
 }
 
 
 .margen-contenido{
-
     margin-right: 20%;
     margin-left: 20%;
 
     
+}
+
+p{
+    color: white;
+}
+
+.pmain{
+    color: darkblue;
+}
+
+h1{
+    color: darkblue;
+}
+
+h2{
+    color: white;
+}
+
+.franja-superior{
+    height: 50px;
+    background-color: darkblue;
+    
+   
+}
+
+
+.texto-superior{
+    padding-top: 150px;    
+    
+
 }
