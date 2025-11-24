@@ -1,86 +1,144 @@
-body{
-    margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-
-
+body {
+  font-family: "Source Sans 3", sans-serif;
 }
 
+header {
+  margin-top: 0px;
+}
 
-main{
+main {
+  display: flex;
+  background-image: url(images/fotomain.jpg);
+  height: 700px;
+  width: 100%;
+  padding-top: 55px;
+}
+
+footer {
+  background-color: rgb(37, 37, 82);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 55px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 25, 71);
+}
+
+.margen-contenido {
+  margin-right: 20%;
+  margin-left: 20%;
+  color: darkblue;
+}
+
+.margen-text {
+}
+
+.pmain {
+  position: relative;
+  top: 250px;
+  color: rgb(21, 21, 73);
+}
+
+h2 {
+  font-size: 25px;
+  display: flex;
+  position: relative;
+  top: 40px;
+  margin-right: 900px;
+  color: white;
+}
+
+.franja-superior {
     display: flex;
-    background-image: url(images/fotomain.jpg);
-    height: 700px;
-    width: 100%;
-    
-    
+    align-items: center;
+    justify-content: space-around;
+  background-color: rgb(5, 5, 56);
+  border: 2px solid rgb(255, 255, 255);
 }
 
-
-footer{
-    background-color: rgb(37, 37, 82);
-   
+.franja-superior img{
+    
+    height: 20px;
+    width: auto;
 
 }
 
+.texto-superior {
+  padding-top: 50px;
+  margin-right: 5%;
+  margin-left: 20%;
+  position: relative;
+  top: -25px;
+  color: white;
+}
 
-nav{
+.texto-medio {
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+}
+
+.texto-inferior {
+  color: white;
+  margin-left: 400px;
+  width: 550px;
+  gap: 20px;
+  position: relative;
+  top: -30px;
+}
+
+button {
+  border-color: white;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+}
+
+.inferior {
+  margin-left: 1000px;
+  position: relative;
+  top: -70px;
+}
+
+.titulo-medio {
+  font-size: 50px;
+  color: rgb(21, 21, 73);
+  font-weight: bold;
+}
+
+.bandera-texto{
     display: flex;
-    background-color: white;
-    margin-right: 20%;
-    margin-left: 20%;
+    align-items: center;
+    gap: 0px;
+    width: 500px;
+ 
+    
 }
 
-
-nav ul{
-    list-style: none;
+.icon-redesociales {
     display: flex;
-    justify-content: right;
-    gap: 50px;
-    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 
-nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 25, 71);
-}
-
-
-.margen-contenido{
-    margin-right: 20%;
-    margin-left: 20%;
-
-    
-}
-
-p{
-    color: white;
-}
-
-.pmain{
-    color: darkblue;
-}
-
-h1{
-    color: darkblue;
-}
-
-h2{
-    color: white;
-}
-
-.franja-superior{
-    height: 50px;
-    background-color: darkblue;
-    
-   
-}
-
-
-.texto-superior{
-    padding-top: 150px;    
-    
-
-}
